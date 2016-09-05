@@ -16,3 +16,4 @@ Zdrojaky, jak jsou na dvd k diplomce + Vagrantfile pro vytvoreni VM.
  - `vagrant up` stahne obraz ubuntu, nastavi podle definic v souboru [Vagrantfile](Vagrantfile), pro inicializaci pouzije skript [projects/bootstrap.sh](projects/bootstrap.sh). Skript nainstaluje a zkompiluje potrebne knihovny a na zaver pusti analyzator na soubor `2014-03-10-200004-CT_24-HYDEPARK.wav` v adresari poc. Vysledky ulozi v adresari /tmp/output.
  - ke stroji se lze prihlasit pomoci `vagrant ssh`
  - (`vagrant ssh` pouzivat vlastni vytvoreny klic, ale v pripade potreby login:pass `vagrant:vagrant`)
+ - `vagrant halt` pro vypnuti stroje, `vagrant destroy` pro odstraneni stroje. `vagrant help` napoveda
