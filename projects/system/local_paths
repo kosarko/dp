@@ -1,0 +1,14 @@
+#modify this file with your paths
+THISDIR=$(dirname $(readlink -e $BASH_SOURCE))
+export PATH=$THISDIR/lib/bin:$PATH
+
+#SET PATH TO INSTALLED SRILM
+SRILM=/home/ondra/srilm/bin/i686-m64
+#SCLITE is necessary only for perf measuring, can be installed with kaldi tools
+SCLITE=~/sources/kams/kaldi/tools/sctk/bin/
+
+export PATH=$SRILM:$SCLITE:$PATH
+export KALDI_DIR=~/sources/kams/kaldi
+
+#path to tri4a model
+export MODEL=$THISDIR/data/models/exp/tri4a

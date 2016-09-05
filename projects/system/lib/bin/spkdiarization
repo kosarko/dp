@@ -1,0 +1,2 @@
+#!/bin/bash
+java -Xmx4g -jar $(dirname $0)/../lium_spkdiarization/lium_spkdiarization-8.4.1.jar "$@"

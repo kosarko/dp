@@ -1,0 +1,4 @@
+.vagrant
+*.sw[pon]
+projects/poc
+projects/srilm.tar.gz
